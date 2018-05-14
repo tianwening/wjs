@@ -92,6 +92,7 @@
 .wjsbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  margin-bottom: 0px;
 }
 .wjsbar-default .navbar-brand {
   height: 80px;
@@ -121,7 +122,7 @@
 .wjsbar-default .navbar-nav > .active > a:hover,
 .wjsbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #fff;
+  /*background-color: #777;*/
 }
 .wjsbar-default .navbar-nav > .disabled > a,
 .wjsbar-default .navbar-nav > .disabled > a:hover,

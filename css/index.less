@@ -1,3 +1,4 @@
+// 通用栏样式
 .header {
 	height: 40px;
 	border: 1px solid grey;
@@ -30,6 +31,7 @@
 		}
 	}
 }
+// 导航栏样式
 .navbar {
 	.wjsfont-logo {
 		font-size: 50px;
@@ -42,6 +44,7 @@
 		transform: translateY(-5px);
 	}
 }
+// 轮播图样式
 .banner {
 	.banner_a {
 		display: block;
@@ -66,5 +69,44 @@
 	.a_mobile {
 		display: block;
 		width: 100%;
+	}
+}
+// 信息栏样式
+.info {
+	padding: 50px;
+	.container {
+		max-width: 910px;
+		.item {
+			margin-top: 20px;
+			a {
+				color: grey;
+				&:hover {
+					color: red;
+				}
+				.wjsfont {
+					font-size: 40px;
+				}
+			}
+		}
+	}
+}
+//微金所预约信息
+.book {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	padding: 20px;
+	.container {
+		max-width: 910px;
+		.booknow {
+			color: red;
+    		border-bottom: 1px dashed red;
+    		text-decoration: none;
+		}
+		.movie {
+			color: grey;
+			&:hover {
+				color: red;
+			}
+		}
 	}
 }
