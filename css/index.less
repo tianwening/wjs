@@ -1,0 +1,70 @@
+.header {
+	height: 40px;
+	border: 1px solid grey;
+	.row {
+		height: 100%;
+		div {
+			height: 100%;
+    		line-height: 40px;
+    		border-right: 1px solid gray;
+    		text-align: center;
+    		&:nth-child(n+3) {
+    			a {
+    				margin-left: 10px;
+    			}
+    		}
+    		&:first-child a img{
+				display: none;
+    		}
+    		&:first-child a:hover img{
+    			position: absolute;
+    			display: block;
+    			left: 95px;
+    			top: 40px;
+    		}
+    		a {
+				font-size: 12px;
+				color: grey;
+				text-decoration: none;
+    		}
+		}
+	}
+}
+.navbar {
+	.wjsfont-logo {
+		font-size: 50px;
+		color: red;
+		transform: translateY(-15px);
+	}
+	.wjsfont-name {
+		font-size: 70px;
+		color: black;
+		transform: translateY(-5px);
+	}
+}
+.banner {
+	.banner_a {
+		display: block;
+		height: 410px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		&.image_a {
+			background-image: url('../images/slide_01_2000x410.jpg');
+		}
+		&.image_b {
+			background-image: url('../images/slide_02_2000x410.jpg');
+		}
+		&.image_c {
+			background-image: url('../images/slide_03_2000x410.jpg');
+		}
+		&.image_d {
+			background-image: url('../images/slide_04_2000x410.jpg');
+		}
+	}
+	.a_mobile {
+		display: block;
+		width: 100%;
+	}
+}
